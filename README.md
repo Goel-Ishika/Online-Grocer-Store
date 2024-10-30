@@ -22,8 +22,6 @@ PDF Generation: FPDF for generating invoices (if required).
 How to Run the Application
 
 Clone the Repository: Clone this repository to your local machine.
-Install Requirements: Install required packages using the command:
-pip install -r requirements.txt
 Set Up the Database: Create the MySQL database using the provided SQL script (database_setup.sql). Ensure that the MySQL server is running and accessible.
 Configure Database Connection: Modify db_connection.py to include your database connection settings.
 Run the Application: Launch the Streamlit app using the command: streamlit run app.py
